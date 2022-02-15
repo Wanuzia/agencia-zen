@@ -27,18 +27,26 @@
     justify-content: space-around;
 }
 
+.cabecalho-principal p  {
+    color:#fff;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 100;
+}
+
 .cabecalho-logo {
-    height: 10rem;
+    height: 8rem;
     border-radius: 15%;
 }
 
 .cabecalho-nav {
-    margin-top: 2em;
+    margin-top: 4em;
     padding: 1em 0 0 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
     border-top: solid #fff 1px;
+    background-color: rgba(255, 255, 255, 1%);
 }
 
 .cabecalho-nav p {
