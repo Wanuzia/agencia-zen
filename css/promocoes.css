@@ -1,0 +1,83 @@
+.promocoes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.promocoes-titulo {
+    font-size: 24px;
+    color: #1F336A;
+    font-weight: 600;
+    width: 400px;
+    text-align: center;
+}
+
+.card {
+    width: 210px;
+    height: 270px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 2px #DDDDDD;
+}
+
+.card-image {
+    height: 111px;
+    background-size: cover;
+    margin-bottom: 10px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.img-1 {
+    background-image: url("../img/jericoacoara.jpg");
+}
+
+hr {
+    text-align: center;
+    width: 60%;
+}
+
+.card-titulo {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.caixa-icones {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.card-detalhe {
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.caixa-detalhe {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.icone-check {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.caixa-diaria {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.preco {
+    text-align: right;
+    font-weight: bold;
+    margin-right: 15px;
+    font-style: italic;
+}
