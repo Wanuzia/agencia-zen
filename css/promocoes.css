@@ -4,6 +4,12 @@
     align-items: center;
 }
 
+.planos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .promocoes-titulo {
     font-size: 24px;
     color: #1F336A;
@@ -12,10 +18,35 @@
     text-align: center;
 }
 
+.caixa-promocoes-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.passaporte {
+    height: 70px;
+    width: 70px;
+}
+
+.caixa-planos-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.hotel {
+    height: 70px;
+    width: 70px;
+}
+
 .card {
     width: 210px;
     height: 270px;
     border-radius: 8px;
+    margin-bottom: 40px;
     box-shadow: 0 0 5px 2px #DDDDDD;
 }
 
@@ -28,7 +59,26 @@
 }
 
 .img-1 {
+    background-image: url("../img/chapada-diamantina.jpg");
+}
+
+.img-2 {
+    background-image: url("../img/gramado-paisagem-flores-0320-1400x800.webp");
+}
+.img-3 {
+    background-image: url("../img/parque-beto-carrero-world.jpg");
+}
+
+.img-4 {
     background-image: url("../img/jericoacoara.jpg");
+}
+
+.img-5 {
+    background-image: url("../img/Maragogi.jpg") ;
+}
+
+.img-6 {
+    background-image: url("../img/ubatuba.jpg");
 }
 
 hr {
