@@ -2,12 +2,14 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .planos {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap-reverse;
 }
 
 .promocoes-titulo {
