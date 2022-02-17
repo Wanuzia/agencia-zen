@@ -1,0 +1,72 @@
+.destinos {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    padding: 0 10%; 
+   } 
+.titulo-destino {
+    width: 100%;
+    padding: 10px 1opx;
+    position: top;
+   
+}
+.titulo-destino-principal{
+justify-content: center;
+flex-direction: row;
+}
+
+.icone {
+width: 90px;
+margin-top: 10px 0;
+align-self: baseline;
+
+}
+.titulo-centralizado{
+    text-align: center;
+}
+.titulo-destino h1{
+   font-size: 50px;
+   color: #1F336A;    
+}
+.titulo-destino h3{
+    font-size: 30px;
+    margin-left: 100px;
+    
+}
+.caixa-lista-destinos { 
+    width: 150px; 
+    border: solid 1px #000000;
+    border-radius: 10px;
+    justify-content: space-between;
+} 
+
+.caixa-lista-destinos img { 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    width: 100%; 
+} 
+.caixa-lista-destinos p { 
+    text-align: center;
+ } 
+.caixa-lista-destinos h3 { 
+    text-align: center; 
+}
+.orcamento {
+    display: flex;
+    text-align: center;
+    width: 15%;
+    box-sizing: border-box;
+    border: 2px solid #1F336A;
+    border-radius: 10px;
+    margin: 100px 820px;
+    color: #1F336A;
+    padding-left: 30px;
+    } 
+    
+.orcamento:hover {
+        border-color: #C78C19;
+        font-size: 25px;
+}
+.orcamento:active {
+        border-color: #088C19;
+}
