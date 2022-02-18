@@ -1,71 +1,79 @@
 .destinos {
-    display: flex; 
     flex-direction: row; 
-    justify-content: space-between; 
-    padding: 0 10%; 
-   } 
+} 
 .titulo-destino {
-    width: 100%;
-    padding: 10px 1opx;
-    position: top;
-   
-}
-.titulo-destino-principal{
-justify-content: center;
-flex-direction: row;
-}
-
-.icone {
-width: 90px;
-margin-top: 10px 0;
-align-self: baseline;
-
-}
-.titulo-centralizado{
     text-align: center;
+}
+.icone {
+    width: 70px;
+    display: inline-block;
+    justify-content: baseline;
+    position: relative;
+    margin-left: -420px;
+    top: 50px;    
 }
 .titulo-destino h1{
-   font-size: 50px;
-   color: #1F336A;    
+   font-size: 35px;
+   color: #1F336A;  
+   position: relative;
 }
-.titulo-destino h3{
-    font-size: 30px;
-    margin-left: 100px;
-    
-}
-.caixa-lista-destinos { 
-    width: 150px; 
-    border: solid 1px #000000;
-    border-radius: 10px;
-    justify-content: space-between;
-} 
-
-.caixa-lista-destinos img { 
-    border-top-left-radius: 10px; 
-    border-top-right-radius: 10px; 
-    width: 100%; 
-} 
-.caixa-lista-destinos p { 
-    text-align: center;
- } 
-.caixa-lista-destinos h3 { 
-    text-align: center; 
-}
-.orcamento {
+.subtitulo{
     display: flex;
     text-align: center;
-    width: 15%;
-    box-sizing: border-box;
+    justify-content: center;
+    padding-top: 35px;  
+    padding-bottom: 10px;  
+    font-size: x-large;
+}
+.caixa-lista-destinos { 
+    display: inline-block;
+    width: 210px; 
+    height: 270px;
+    border: solid 1px #000000;
+    border-radius: 8px;
+    margin: 15px;
+    margin-left: 80px;
+    justify-content: center;    
+} 
+.caixa-lista-destinos img { 
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px; 
+    width: 100%; 
+} 
+.caixa-lista-destinos h3 { 
+    text-align: center; 
+    font-weight: bold;
+    font-size: 18px;
+   margin: 8px;
+   font-style: italic;
+}
+.caixa-lista-destinos p { 
+    text-align: center;
+    text-justify:distribute-all-lines;
+    padding: 5px 0 3px;
+ }
+ .caixa-lista-destinos:hover {
+    border-color: #C78C19;
+    font-size: 20px;
+ } 
+.orcamento {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 10px;
+    font-weight: bold;
     border: 2px solid #1F336A;
-    border-radius: 10px;
-    margin: 100px 820px;
+    border: rgb (30, 35, 48) 5px;
     color: #1F336A;
-    padding-left: 30px;
-    } 
-    
+    border-radius: 8px;
+}   
 .orcamento:hover {
         border-color: #C78C19;
-        font-size: 25px;
+        font-size: 20px;
 }
 .orcamento:active {
         border-color: #088C19;
