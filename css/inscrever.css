@@ -40,10 +40,41 @@
 
 .inscrever-conteudo-qr{
     display: flex;
-    flex-direction:row;
-    width: 20%;    
+    flex-direction:row; 
+    height: 109px;
+    width: 300px;
+    background-color: #F4BC1D;
+    align-items:center;
+    justify-content:space-between; 
+    padding-right: 10px; 
+    padding-left: 10px;
+    border-radius: 13px;
+
+}
+.inscrever-conteudo-qr-app {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height: 80px;
 }
 
+.tema-qr {
+    color: #1F336A;
+    font-weight: bold; 
+    font-size: 14px;
+    text-align: center;
+}
+
+.inscrever-conteudo-qr p {
+    font-size: 8px;
+    font-weight: bold;
+    text-align:center;
+}
+
+.imagem-qr-code {
+    height: 90px;
+    width: 94px;
+}
 .inscrever-campo-texto {
     border:none;
     border-radius: 15px;
