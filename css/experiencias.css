@@ -44,22 +44,21 @@
    align-content:space-around;
 }
 
-.experiencia-conteudo-feedback p h3 {
-   text-align: center;
-   align-items: flex-start;
-   padding: 1rem 0;
-}
-
 .experiencia-conteudo-feedback  p {
-   font-weight: 400;
-   min-height: 6rem;
+   font-weight:400;
+   min-height: 8rem;
+   
+   padding: 1rem;
+   text-align: center;
+   font-size: 0.9em;
 }
 
 .experiencia-conteudo-feedback  h3 {
    font-weight: bold;
+   text-align: center;
 }
 
 .experiencia-conteudo-feedback img {
    width: 60%;
-   margin: 0 auto;
+   margin: 1em auto;
 }
