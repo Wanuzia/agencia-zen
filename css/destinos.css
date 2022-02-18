@@ -6,6 +6,7 @@
     flex-direction: column;
     align-items: center;
 } 
+
 .titulo-destino {
     display: flex;
     flex-direction: row;
@@ -47,11 +48,13 @@
     justify-content: space-between;    
     box-shadow: 0px 2px 5px rgba(31, 51, 106, 30%);
 } 
+
 .caixa-lista-destinos img { 
     border-top-left-radius: 8px; 
     border-top-right-radius: 8px; 
     width: 100%; 
 } 
+
 .caixa-lista-destinos h3 { 
     text-align: center; 
     font-weight: bold;
@@ -59,6 +62,7 @@
     margin: 8px;
     font-style: italic;
 }
+
 .caixa-lista-destinos p { 
     text-align: center;
     text-justify:distribute-all-lines;

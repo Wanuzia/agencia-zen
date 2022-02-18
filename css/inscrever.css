@@ -26,11 +26,13 @@
     font-size: 15px;
     color: #1F336A;
 }
+
 .texto-spam {
     color: #1F336A;
     font-weight: bold;
     font-size: 8px;
 }
+
 .inscrever-conteudo-formulario h2 {
     font-size: 1.2em;
     font-weight: bold;
@@ -38,6 +40,7 @@
     margin-bottom: 15px;
 
 }
+
 .btn-aceitar {
     border-radius: 13px;
     padding: 15px ;
@@ -55,6 +58,7 @@
 .btn-aceitar:hover {
     opacity: 0.85;
 }
+
 .inscrever-conteudo-formulario  form {
     display: flex;
     flex-direction:column;
@@ -73,6 +77,7 @@
     border-radius: 13px;
     align-self: center;
 }
+
 .inscrever-conteudo-qr-app {
     display:flex;
     flex-direction:column;
@@ -97,6 +102,7 @@
     height: 90px;
     width: 94px;
 }
+
 .inscrever-campo-texto {
     border:none;
     border-radius: 5px;
@@ -110,7 +116,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .campo-menor {
     width: 48%;
 }
-
