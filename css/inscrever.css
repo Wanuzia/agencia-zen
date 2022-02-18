@@ -1,0 +1,61 @@
+.inscrever {
+    display: flex;
+    flex-direction:column ;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/inscrever-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.inscrever-conteudo{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex ;
+    flex-direction: row ;
+    justify-content: space-around;
+}
+
+.inscrever-conteudo-formulario{
+    display: flex;
+    flex-direction:column;
+    width: 36%;
+    background-color: #F2F2F2;
+    height: 100%;
+    padding:1.2rem 20px ;
+    font-size: 15px;
+    color: #1F336A;
+}
+.inscrever-conteudo-formulario h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align:center;
+
+}
+.inscrever-conteudo-formulario  form {
+    display: flex;
+    flex-direction:column;
+}
+
+.inscrever-conteudo-qr{
+    display: flex;
+    flex-direction:row;
+    width: 20%;    
+}
+
+.inscrever-campo-texto {
+    border:none;
+    border-radius: 15px;
+    margin:0.3rem 0;
+    height:1.3rem;
+}
+
+.campo-menor{
+    width: 48%;
+}
+
+.inscrever-conteudo-formulario-nome {
+    width: 100%;
+}
+
