@@ -10,7 +10,7 @@ Projeto feito para a primeira semana de desáfios do Programa Desenvolve do Grup
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML) - Utilizado para a estruturação do site
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Utilizado para a estilização da página
-- [Figma](figma.com/) - Utilizado para Prototipação do layout
+- [Figma](https://www.figma.com/file/JgXaAcnjGzyFAvSYc3mphj/Omaitopy---Ag%C3%AAncia-de-Viagens-Zem-team-library?node-id=0%3A1) - Utilizado para Prototipação do layout
 
 ### Landing page
 
