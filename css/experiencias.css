@@ -44,7 +44,7 @@
    align-content:space-around;
 }
 
-.experiencia-conteudo-feedback p, h3 {
+.experiencia-conteudo-feedback p h3 {
    text-align: center;
    align-items: flex-start;
    padding: 1rem 0;
