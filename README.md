@@ -14,4 +14,4 @@ Projeto feito para a primeira semana de desáfios do Programa Desenvolve do Grup
 
 ### Landing page
 
-<img src="./img/landing_page.png" alt="Logo">
+[<img src="./img/landing_page.png" alt="Logo">](https://gutoggg.github.io/agencia-zen/)
