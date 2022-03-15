@@ -32,12 +32,13 @@
    display: flex;
    flex-direction: row;
    justify-content: space-around ;
+   flex-wrap: wrap;
 }
 
 .experiencia-conteudo-feedback {
    display: flex;
    flex-direction: column;
-   width: 20%;
+   width: 200px;
    height: 100%;
    max-height: 35rem;
    background: linear-gradient(180deg, rgba(191, 158, 57, 0.7) 0%, rgba(191, 158, 57, 0) 60%);
@@ -61,4 +62,11 @@
 .experiencia-conteudo-feedback img {
    width: 60%;
    margin: 1em auto;
+}
+
+@media (max-width: 600px ) {
+   .experiencia-conteudo-feedback {
+      margin-bottom: 20px;
+      border-radius: 5px;
+   }
 }
