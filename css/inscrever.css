@@ -10,16 +10,18 @@
 
 .inscrever-conteudo{
     max-width: 1024px;
+    width: 100%;
     margin: 0 auto;
     display: flex ;
     flex-direction: row ;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .inscrever-conteudo-formulario{
     display: flex;
     flex-direction:column;
-    width: 36%;
+    width: 394px;
     background-color: #F2F2F2;
     height: 100%;
     padding:1.2rem 20px ;
@@ -68,7 +70,7 @@
     display: flex;
     flex-direction:row; 
     height: 109px;
-    width: 30%;
+    width: 294px;
     background-color: #F4BC1D;
     align-items:center;
     justify-content:space-between; 
@@ -119,4 +121,18 @@
 
 .campo-menor {
     width: 48%;
+}
+
+@media (max-width: 700px) {
+    .inscrever {
+        height: 100%;
+    }
+
+    .inscrever-conteudo {
+        height: 100%;
+    }
+
+    .inscrever-conteudo-qr {
+        margin-top: 60px;
+    }
 }
