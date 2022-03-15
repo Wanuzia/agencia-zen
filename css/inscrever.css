@@ -134,5 +134,11 @@
 
     .inscrever-conteudo-qr {
         margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    .inscrever-conteudo-formulario {
+        margin-top: 20px;
+        border-radius: 5px;
     }
 }
