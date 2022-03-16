@@ -18,7 +18,8 @@ Projeto feito para a primeira semana de desáfios do Programa Desenvolve do Grup
 
 
 ## Feito por:
-<table>
+<div align="center">
+    <table>
   <tr>
     <td align="center"><a href="https://github.com/Carlos-Jr1"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/97963620?v=4" width="100px;" alt=""/><br /><sub><b>Carlos Junior</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/Joely-Brito"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/98559997?v=4" width="100px;" alt=""/><br /><sub><b>Joely Brito</b></sub></a><br /></td>
@@ -30,3 +31,5 @@ Projeto feito para a primeira semana de desáfios do Programa Desenvolve do Grup
     <td align="center"><a href="https://github.com/Wanuzia"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/98324557?v=4" width="100px;" alt=""/><br /><sub><b>Wanuzia Braga</b></sub></a><br /></td>
   </tr>
 </table>
+</div>
+
