@@ -4,7 +4,7 @@
 
 ## Sobre o projeto
 
-Projeto feito para a primeira semana de desáfios do Programa Desenvolve do Grupo Boticário
+Projeto feito para a primeira semana de desafios do Programa Desenvolve do Grupo Boticário
 
 ## Feito com :rocket:
 
